@@ -1,0 +1,19 @@
+[build]
+  # Directory to publish (relative to root of your repo)
+  publish = "Influencer_kartr_personal"
+  # Default build command
+  command = "# no build command needed for this project"
+
+# Redirects and headers
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[dev]
+  # Local dev command
+  command = "python app.py"
+  # Port that the dev server will be listening on
+  port = 8888
+  # Specify the directory to serve
+  publish = "Influencer_kartr_personal"
