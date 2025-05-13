@@ -60,3 +60,7 @@ Thumbs.db
 
 # Netlify
 .netlify/
+
+# Fooocus folder (exclude from deployment)
+Influencer_kartr_personal/Fooocus-main/
+Fooocus-main/
